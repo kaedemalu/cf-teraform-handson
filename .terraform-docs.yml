@@ -1,0 +1,14 @@
+formatter: "md tbl"
+
+header-from: .header.md
+
+content: |-
+  # Cloudflare Terraform Hands On
+  {{ .Header }}
+  
+  {{ .Providers }}
+  {{ .Resources }}
+
+output:
+  file: README.md
+  mode: replace
